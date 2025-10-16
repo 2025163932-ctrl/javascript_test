@@ -18,7 +18,7 @@ p {
     font-size: 1rem;
 }
 
-
+/* Flex container for map + info */
 .content-container {
     display: flex;
     justify-content: center;
@@ -43,12 +43,12 @@ p {
     transform: scale(1.05);
 }
 
-/* Right side (text info) */
+/* Right side (info + buttons) */
 .info-section {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
+    width: 320px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
@@ -58,22 +58,21 @@ p {
     margin-top: 0;
 }
 
-/* Buttons */
+/* Buttons under info */
 .btn-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
-    margin: 20px auto;
-    max-width: 800px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 button {
     background-color: #00b4d8;
     border: none;
     color: white;
-    padding: 12px 26px;
-    font-size: 16px;
+    padding: 10px 20px;
+    font-size: 15px;
     border-radius: 8px;
     cursor: pointer;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
